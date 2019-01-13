@@ -24,6 +24,7 @@ h1, h2, h3
     
 }
 
+//Background Gradient
 .home-callout, .navbar{
   //gradient provided by @_igjosh at UIgradients.com
 background: #8E2DE2;  /* fallback for old browsers */
@@ -31,10 +32,12 @@ background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-2
 background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+//remove white border under navbar.
 .navbar{
   border:none;
 }
 
+// Callout Styles
 .home-callout{
   margin-top:-20px;
   color:white;
@@ -42,14 +45,13 @@ background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, F
   padding-bottom:75px;
 }
 
-//Making the navbar text and logo white
+//Making the navbar text and logo white and on hover white.
 .navbar-default .navbar-brand, .navbar-default .navbar-right > li > a{
   color:white;
-}
-
-.navbar-default .navbar-brand:hover, .navbar-default .navbar-right > li > a:hover{
-  color:white;
-  opacity: .5;
+  &:hover{
+    color:white;
+    opacity: .5;
+  }
 }
 
 
