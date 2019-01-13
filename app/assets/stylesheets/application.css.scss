@@ -39,6 +39,11 @@ background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, F
   border:none;
 }
 
+.navbar-brand{
+  font-family: 'Staatliches', sans-serif;
+  font-size:25px;
+}
+
 // Callout Styles
 .home-callout{
   margin-top:-20px;
@@ -55,5 +60,6 @@ background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, F
     opacity: .5;
   }
 }
+
 
 
