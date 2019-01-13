@@ -41,3 +41,15 @@ background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, F
   padding-top:25px;
   padding-bottom:75px;
 }
+
+//Making the navbar text and logo white
+.navbar-default .navbar-brand, .navbar-default .navbar-right > li > a{
+  color:white;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-right > li > a:hover{
+  color:white;
+  opacity: .5;
+}
+
+
